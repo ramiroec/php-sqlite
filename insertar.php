@@ -4,6 +4,7 @@ if (!empty($_REQUEST))
 {
 $sql = "insert into links (url,title) values ('$_REQUEST[url]', '$_REQUEST[title]')";
 //print $sql;
+  
 $db->query($sql);
 print "<br>Guardado con exito<br>";
 print "<a href=index.php>Listar</a>";
