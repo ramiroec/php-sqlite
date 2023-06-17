@@ -10,6 +10,7 @@ print "<a href=index.php>Listar</a>";
 }
 ?>
 
+  
 <form>
 Enlace: <input type="url" name="url">
 <br>
